@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.coco.floatingmenu.MainActivity">
+
+
+
+    <rjsv.floatingmenu.floatingmenubutton.FloatingMenuButton
+        android:id="@+id/fab_2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="centerInside"
+
+       >
+
+        <rjsv.floatingmenu.floatingmenubutton.subbutton.FloatingSubButton
+            android:id="@+id/fab_2_sub_fab_left_1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/one" />
+
+        <rjsv.floatingmenu.floatingmenubutton.subbutton.FloatingSubButton
+            android:id="@+id/fab_2_sub_fab_left_2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/two" />
+
+        <rjsv.floatingmenu.floatingmenubutton.subbutton.FloatingSubButton
+            android:id="@+id/fab_2_sub_fab_left_3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/three" />
+
+        <rjsv.floatingmenu.floatingmenubutton.subbutton.FloatingSubButton
+            android:id="@+id/fab_2_sub_fab_left_4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/four" />
+
+        <rjsv.floatingmenu.floatingmenubutton.subbutton.FloatingSubButton
+            android:id="@+id/fab_2_sub_fab_left_5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/five" />
+
+    </rjsv.floatingmenu.floatingmenubutton.FloatingMenuButton>
+
+    <rjsv.floatingmenu.floatingmenubutton.FloatingMenuButton
+        android:id="@+id/fab_1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="52dp"
+        android:scaleType="centerInside"
+
+      >
+
+        <rjsv.floatingmenu.floatingmenubutton.subbutton.FloatingSubButton
+            android:id="@+id/fab_1_sub_fab_left_1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/one" />
+
+        <rjsv.floatingmenu.floatingmenubutton.subbutton.FloatingSubButton
+            android:id="@+id/fab_1_sub_fab_left_2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/two" />
+
+        <rjsv.floatingmenu.floatingmenubutton.subbutton.FloatingSubButton
+            android:id="@+id/fab_1_sub_fab_left_3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/three" />
+
+        <rjsv.floatingmenu.floatingmenubutton.subbutton.FloatingSubButton
+            android:id="@+id/fab_1_sub_fab_left_4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/four" />
+
+        <rjsv.floatingmenu.floatingmenubutton.subbutton.FloatingSubButton
+            android:id="@+id/fab_1_sub_fab_left_5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/five" />
+
+    </rjsv.floatingmenu.floatingmenubutton.FloatingMenuButton>
+</LinearLayout>
